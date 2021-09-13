@@ -1,0 +1,37 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+}
+
+#header {
+    color:white;
+    background-color: rgb(255, 0, 106);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    width: 770px;
+    height: 60px;
+    padding: 6px;
+    font-variant:small-caps;
+    letter-spacing: 6px;
+}
+
+#main_div {
+    float: none;
+    background-color: rgb(174, 0, 255);
+    border-radius: 10px;
+    height: 120px;
+    color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 30px rgb(255, 255, 255);
+    width: 750px;
+    padding-top: 1px;
+}
+
+#model_objects {
+    background-color:rgb(252, 62, 195);
+    color: rgb(255, 255, 255);
+    width: 700px;
+    height: 37px;
+    border-radius: 10px;
+    font-size: 25px;
+}
