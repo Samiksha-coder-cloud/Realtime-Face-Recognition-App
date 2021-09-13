@@ -20,7 +20,7 @@ body {
     float: none;
     background-color: rgb(174, 0, 255);
     border-radius: 10px;
-    height: 120px;
+    height: 110px;
     color: rgb(255, 255, 255);
     box-shadow: 10px 10px 30px rgb(255, 255, 255);
     width: 750px;
@@ -31,7 +31,44 @@ body {
     background-color:rgb(252, 62, 195);
     color: rgb(255, 255, 255);
     width: 700px;
-    height: 37px;
+    height: 35px;
     border-radius: 10px;
     font-size: 25px;
+}
+
+#object_name, #accuracy_name {
+    font-size: 20px;
+    box-shadow: 5px 5px 5px white;
+    background-color:rgb(180, 20, 220);
+    border:2px solid white;
+    color: white;
+    margin-right: 10px;
+}
+
+#result_object_name, #result_accuracy_name {
+    font-size: 20px;
+    box-shadow: 5px 5px 5px white;
+    background-color:rgb(220, 20, 177);
+    border:2px solid white;
+    color: white;
+}
+
+#copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(228, 52, 140);
+    line-height: 3;
+    text-align: center;
+    font-variant: small-caps;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px white;
+    margin-top: 150px;
 }
